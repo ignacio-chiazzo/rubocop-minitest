@@ -11,6 +11,8 @@ gem 'rake'
 gem 'rubocop', github: 'rubocop/rubocop'
 gem 'rubocop-performance', '~> 1.12.0'
 gem 'yard', '~> 0.9'
+gem "pry"
+gem "pry-nav"
 
 local_gemfile = File.expand_path('Gemfile.local', __dir__)
 eval_gemfile local_gemfile if File.exist?(local_gemfile)
