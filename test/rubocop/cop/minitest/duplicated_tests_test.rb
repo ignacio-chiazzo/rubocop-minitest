@@ -10,7 +10,7 @@ class DuplicatedTestTest < Minitest::Test
   def test_registers_offense_when_multiple_expectations
     assert_offense(<<~RUBY)
       class BarTest < Minitest::Test
-        def test_foo
+        def test_bar
         end
       end
 
